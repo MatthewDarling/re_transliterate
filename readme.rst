@@ -125,3 +125,8 @@ see any weird bugs, that might be the cause.
 Other than that, if you have any other questions/issues with the module,
 shoot me an e-mail; especially if you run into any issues with Unicode
 support or bugs specific to Python 3/PyPy/another interpreter.
+
+For an example transliteration script, see the script I wrote for
+`Upper Necaxa Totonac <https://github.com/MatthewDarling/UNT_to_IPA/>`_.
+The example usage above is all drawn from that code - but it might help to see
+a working example.

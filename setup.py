@@ -3,7 +3,7 @@
 setup(
     name='re_transliterate',
     version='1.2',
-    #url=""
+    url="https://github.com/MatthewDarling/re_transliterate/"
     py_modules=['re_transliterate'],
     include_package_data=True,
 
