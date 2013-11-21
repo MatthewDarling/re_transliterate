@@ -2,6 +2,11 @@
 Versions
 ========
 
+1.3
+----------
+
+Debugged readme examples (Unicode escape was wrong, and | was used incorrectly)
+
 1.2
 ----------
 

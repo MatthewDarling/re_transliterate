@@ -2,8 +2,8 @@
 
 setup(
     name='re_transliterate',
-    version='1.2',
-    url="https://github.com/MatthewDarling/re_transliterate/"
+    version='1.3',
+    url="https://github.com/MatthewDarling/re_transliterate/",
     py_modules=['re_transliterate'],
     include_package_data=True,
 

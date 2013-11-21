@@ -70,13 +70,13 @@ be saved globally and reused elsewhere. In my own work, I defined the
 above character class of vowels, and the Unicode sequence for the "tilde
 below letter" diacritic:
 
-    >>> LARYNGEAL = ur"u\0330"
+    >>> LARYNGEAL = ur"\u0330"
 
 This allowed me to write mappings like this, where the ' character
 represents laryngealization and may occur before/after a marker for
 length:
 
-    >>> long_laryngealized = {VOWELS + u":'|':":
+    >>> long_laryngealized = {VOWELS + u"(:'|':)":
                               ur"\g<1>" + LARYNGEAL + u"ː"}
 
 This converts any vowel, followed by either (marked by '|') ":'" or
