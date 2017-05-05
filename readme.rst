@@ -109,9 +109,8 @@ transliterate functions. Example:
     aːma̰ʔa̰ːpḭcín
 
 This way, the conversion for "lh":"ɬ" won't interrupt the conversion of
-"lh’":u"ɬ’". Alternatively, I suppose you could use an OrderedDict with
-the word_replace/word_list_replace functions, but I personally like it
-this way.
+"lh’":u"ɬ’". Rather than create a list of mappings, you could use an OrderedDict with
+the word_replace/word_list_replace functions. But it's harder to reuse mappings when they're all in one big OrderedDict.
 
 Conclusion
 ----------
